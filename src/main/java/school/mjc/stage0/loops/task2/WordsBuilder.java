@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class WordsBuilder {
     public void buildPhrase(char... chars) {
-        System.out.println(Arrays.toString(chars));
+        for (char i: chars){
+            System.out.print(i);
+        }
     }
-
 }
